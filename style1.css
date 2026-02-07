@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-top: 5vw;
+}
+.bgimg{
+    height: 20vw;
+    width:100%;
+    align-items: center;
+}
+.reftext{
+    font-size:4vw;
+}
+.getin{
+    font-size: 2vw;
+    font-weight:500;
+}
+.getintext{
+    font-size: 1.5vw;
+}
+.tosa{
+    color:rgb(57, 57, 122);
+    font-size: 3vw;
+    margin-bottom:0.5vw;
+    
+}
+.icon1{
+    height:20vw;
+    margin-right: 10vw;
+}
+.div6{
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    height:30vw;
+    padding: 1vh; 
+}
+.div5{
+    height:25vw;
+    margin: 2vw 2vw 2vw 2vw;
+    width:80%;
+    align-items: center;
+    padding: 1vh;
+}
+.div3{
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    height:30vw; 
+}
+.div4{
+    height:90%;
+    margin: 2vw 0.5vw 2vw 0.5vw;
+    width:40%;
+    align-items: center;
+}
+.div7{
+    height: 10vw;
+    background-color:rgb(216, 247, 231);   
+    align-items: center;
+}
+.contact_icons img{
+    height: 7vw;
+    width: 7vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    border-radius: 50%;
+}
+.icon{
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2vw;
+}
+.iconimg{
+    height:8vw;
+    width: 8vw;
+}
+.connect{
+    font-size: 2vw;
+}
+.address{
+    margin-top: 2vw;
+    align-items: center;
+}
+
+nav{
+    box-shadow: 5px 8px 8px #6c9eda;
+}
+
+.div1{
+    margin-left: 10vw;
+    margin-top: 5vw;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+}
+
+.logo{
+    height:3vw;
+    width:3vw;
+    border-radius: 50%;
+    margin-left: 4vw;
+}
+
+
+.containerM{
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.navitem{
+    margin-right: 1vw;
+    font-size: 1.5vw;
+}
+
+.mar_next{
+    margin-right: 10vw;
+    margin-left: 1vw;
+    font-size: 2vw;
+
+}
+
+
+.foot{
+    color: rgb(212 212 216);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.active {
+    background-color: #454545;
+}
+
+
+@media only screen and (max-width: 800px){
+    body{
+        padding-top: 10vh;
+    }
+    .bgimg{
+        height:20vh;
+    }
+    .mar_next{
+        font-size: 3vh;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    .reftext{
+        font-size: 6vh;
+    }
+    .divmar{
+        margin-top: 5vh;
+    }
+    .tosa{
+        font-size: 3.2vh;
+        margin-bottom: 1vh;
+        margin-right: 0.5vw;
+    }
+    .logo{
+        height:4vh;
+        width:4vh;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    
+    .navitem{
+        font-size: 2vh;
+    }
+    
+    .containerM{
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+    
+    
+    .foot{
+        font-size: 1.5vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .div6{
+        margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+        height:25vh; 
+    }
+    .div5{
+        height:23vh;
+        margin: 2vw 2vw 0vh 2vw;
+        width:90%;
+        align-items: center;
+    }
+    .div3{
+        margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+        height:30vh; 
+    }
+    .div4{
+        height:90%;
+        margin: 2vw 0.5vw 2vw 0.5vw;
+        width:40%;
+        align-items: center;
+    }
+    .icon1{
+        height:12vh;
+        margin-left: 7vw;
+    }
+    .icon{
+        align-items: center;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        font-size: 1vh;
+    }
+    .iconimg{
+        height:8vh;
+        width: 8vh;
+    }
+    .getin{
+        font-size: 4vh;
+        font-weight:500;
+    }
+    .getintext{
+        font-size: 1.5vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        text-align: center;
+    }
+    .address{
+        font-size: 2.1vw;
+        align-items: center;
+        padding:1vw;
+        margin: 1vw;
+    }
+    .connect{
+        font-size: 2.8vw;
+        text-align: center;
+
+    }
+    .btn{
+        height: 3vh;
+        font-size: 1vh;
+    }
+    .div7{
+        height: 10vh;
+        padding: 2vw;
+        background-color:rgb(216, 247, 231);   
+        align-items: center;
+    }
+    .contact_icons img{
+        height: 12vw;
+        width: 12vw;
+        margin-right: 2vw;
+        margin-left: 2vw;
+        border-radius: 50%;
+    }
+
+}

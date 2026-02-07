@@ -1,0 +1,187 @@
+body{
+    padding-top: 5vw;
+}
+.bgimg{
+    height: 35vw;
+
+    width:100%;
+}
+nav{
+    box-shadow: 5px 8px 8px #6c9eda;
+}
+
+
+
+.logo{
+    height:3vw;
+    width:3vw;
+    border-radius: 50%;
+    margin-left: 4vw;
+}
+.gamelist{
+    align-items: center;
+    text-align: center;
+    margin-top: 2vw;
+    padding-top: 2vw;
+    margin-bottom: 2vw;
+}
+.gamecontainer{
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 251 235 / var(--tw-bg-opacity));
+}
+
+
+
+.itemImg{
+    height:10vw;
+    width:10vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 10%;
+
+}
+.containerM{
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+.figcap{
+    font-size:1vw;
+}
+.navitem{
+    margin-right: 1vw;
+    font-size: 1.5vw;
+}
+
+.mar_next{
+    margin-right: 10vw;
+    margin-left: 1vw;
+    font-size: 2vw;
+
+}
+.newgame{
+    font-size: 2vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.newgame a{
+    color: rgb(248, 97, 97);
+}
+.getstart{
+    font-size: 2.5vw;
+}
+.foot{
+    color: rgb(212 212 216);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.slidesShow-container {
+    height: 480px;
+    position: relative;
+    margin: auto;
+}
+.myslides {
+    height: 460px;
+    width: 100%;
+}
+
+.myslides img {
+    height: 450px;
+    width: 100%;
+    padding: 7px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 1px;
+    background-color: #b5aeae;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #454545;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        padding-top: 10vh;
+    }
+    .bgimg{
+        height:35vh;
+    }
+    .mar_next{
+        font-size: 3vh;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    .logo{
+        height:4vh;
+        width:4vh;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    .gamelist{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .navitem{
+        font-size: 2vh;
+    }
+    .itemImg{
+        height:10vh;
+        width:10vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+        border-radius: 10%;
+    
+    }
+    .containerM{
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+    .figcap{
+        font-size:1vh;
+    }
+    .newgame div{
+        font-size: 2vh;
+        text-align: center;
+    }
+    .howto{
+        font-size: 1.5vh;
+        margin-right: 2vh;
+    }
+    .getstart{
+        font-size: 3vh;
+    }
+    .foot{
+        font-size: 1.5vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .slidesShow-container{
+        height:33vh;
+    }
+    .myslides{
+        height:32vh;
+    }
+    .myslides img{
+        height: 30vh;
+    }
+
+}

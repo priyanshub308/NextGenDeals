@@ -1,0 +1,120 @@
+body{
+    padding-top: 5vw;
+}
+.bgimg{
+    height: 15vw;
+    width:100%;
+    align-items: center;
+}
+.reftext{
+    font-size:4vw;
+}
+.tosa{
+    color:rgb(57, 57, 122);
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    
+}
+.divmar{
+    margin-left: 8vw;
+    margin-top: 5vw;
+    margin-right: 8vw;
+}
+.divmar1{
+    margin-left: 8vw;
+    margin-top: 1vw;
+    margin-right: 8vw;
+}
+
+nav{
+    box-shadow: 5px 8px 8px #6c9eda;
+}
+
+.div1{
+    margin-left: 10vw;
+    margin-top: 5vw;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+}
+
+.logo{
+    height:3vw;
+    width:3vw;
+    border-radius: 50%;
+    margin-left: 4vw;
+}
+
+
+.containerM{
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.navitem{
+    margin-right: 1vw;
+    font-size: 1.5vw;
+}
+
+.mar_next{
+    margin-right: 10vw;
+    margin-left: 1vw;
+    font-size: 2vw;
+
+}
+
+.foot{
+    color: rgb(212 212 216);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.active {
+    background-color: #454545;
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        padding-top: 10vh;
+    }
+    .bgimg{
+        height:25vh;
+    }
+    .mar_next{
+        font-size: 3vh;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    .reftext{
+        font-size: 4vh;
+    }
+    .tosa{
+        font-size: 3.2vh;
+        margin-bottom: 4vh;
+        margin-right: 0.5vw;
+    }
+    .logo{
+        height:4vh;
+        width:4vh;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    
+    .navitem{
+        font-size: 2vh;
+    }
+    
+    .containerM{
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+    
+    
+    .foot{
+        font-size: 1.5vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    
+
+}

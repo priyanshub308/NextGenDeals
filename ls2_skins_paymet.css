@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+nav {
+    padding: 14px 0px 6px 60px;
+    box-shadow: 5px 8px 8px #e2e4f4;
+}
+
+nav img {
+    width: 35px;
+    height: 35px;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: blue;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+
+}
+
+.containerHeader {
+    padding: 0 4vw;
+}
+
+.div1 {
+    height: 200px;
+}
+
+.div2 {
+    height: 80px;
+}
+
+.itemImg {
+    width: 70px;
+    height: 70px;
+}
+
+.wide {
+    width: 150px;
+}
+
+.foot {
+    height: 100px;
+}
+
+.btn {
+    border-radius: 20px;
+    border: solid rgb(164, 164, 241);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    width: 30%;
+}
+
+.divC {
+    height: 100px;
+}
+
+button:hover {
+    background-color: rgb(197, 225, 242);
+}

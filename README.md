@@ -1,0 +1,2 @@
+# NextGenDeals
+Nextgendeals website static
